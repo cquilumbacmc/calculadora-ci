@@ -1,6 +1,6 @@
 var Calculator = class {
     constructor() {
-        this.result = 00;
+        this.result = 0;
     }
 
     sum(a, b) {
