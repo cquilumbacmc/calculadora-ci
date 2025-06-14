@@ -1,34 +1,25 @@
-var Calculator = class {  
+var Calculator = class {
     constructor() {
-        this.result = 0; 
+        this.result = 00;
+    }
 
     sum(a, b) {
-        if(a == null || b == null) {  
+        if(a == null || b == null) {
             return 0;
         }
         
-        var result = a + b; 
+        var result = a + b;
         
-        console.log("El resultado es: " + result);  
+        console.log("El resultado es: " + result);
         
         return result;
     }
 
-    
     unusedMethod() {
         let x = 1;
         let y = 2;
         return x + y;
     }
 }
-}
+
 module.exports = Calculator;
-
-
-//class Calculator {
- //   sum(a, b) {
- //       return a + b;
- //   }/
-//}
-
-//module.exports = Calculator;
